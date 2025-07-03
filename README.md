@@ -1,6 +1,6 @@
 #  Pokedex App – Aplicación web en Angular
 
-![Banner Pokedex](https://github.com/mariarosete/pokedexApp/blob/main/screenshots/banner.png?raw=true)
+![Banner Pokedex](https://github.com/mariarosete/pokedex/blob/main/banner.png?raw=true)
 
 **Pokedex App** es una aplicación web desarrollada en Angular como parte de un proyecto formativo. Permite a los usuarios explorar información de Pokémon a través de una interfaz moderna, responsiva y eficiente, utilizando Angular Material y gestionando estado con NgRx.
 
