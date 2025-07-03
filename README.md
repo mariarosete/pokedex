@@ -72,10 +72,7 @@ Luego abre [http://localhost:4200](http://localhost:4200) en tu navegador.
 ## 🔮 Próximas mejoras
 
 - Paginación en el listado.
-- Soporte para múltiples idiomas.
-- Modo oscuro / claro.
 - Animaciones al cambiar de vista.
-- Buscador por nombre.
 
 ---
 
