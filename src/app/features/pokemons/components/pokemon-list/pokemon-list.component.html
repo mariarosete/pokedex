@@ -1,0 +1,56 @@
+<mat-card class="pokemon-list-container">
+  <div class="back-button-container">
+    <button
+      mat-flat-button
+      color="primary"
+      class="custom-back-button"
+      routerLink="/"
+    >
+      <img src="assets/inicio.png" alt="Inicio" class="icon-left" />
+    </button>
+  </div>
+  <h2 class="title">Lista de Pokémon</h2>
+
+  <mat-form-field appearance="fill" class="filter-field">
+    <mat-label>Filtrar por tipo</mat-label>
+    <mat-select [(ngModel)]="selectedType">
+      <mat-option [value]="">Todos</mat-option>
+      <mat-option *ngFor="let type of types" [value]="type">
+        {{ type | titlecase }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div class="pokemon-list">
+    <ng-container *ngIf="pokemons$ | async as pokemons">
+      <ng-container *ngFor="let pokemon of pokemons">
+        <ng-container *ngIf="shouldShow(pokemon)">
+          <mat-card class="pokemon-card">
+            <mat-card-content class="card-content-centered">
+              <div class="name-highlight">{{ pokemon.name | titlecase }}</div>
+              <p><strong>ID:</strong> {{ pokemon.id }}</p>
+              <p><strong>Tipo:</strong></p>
+              <div class="type-badges">
+                <span
+                  *ngFor="let type of pokemon.types"
+                  [ngClass]="'type-badge ' + (type | lowercase)"
+                >
+                  {{ type | titlecase }}
+                </span>
+              </div>
+            </mat-card-content>
+
+            <mat-card-actions>
+              <a
+                class="custom-card-button"
+                [routerLink]="['/pokemons', pokemon.id]"
+              >
+                Ver detalles
+              </a>
+            </mat-card-actions>
+          </mat-card>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </div>
+</mat-card>

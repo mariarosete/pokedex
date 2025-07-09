@@ -1,0 +1,40 @@
+<mat-card class="pokemon-detail-card">
+  <img class="pokemon-image" [src]="pokemon?.image" [alt]="pokemon?.name" />
+
+  <h2>{{ pokemon?.name | titlecase }}</h2>
+
+  <div class="id-highlight">ID: {{ pokemon?.id }}</div>
+
+  <div class="info-section">
+    <div class="info-box">
+      <p class="label">📏 Altura:</p>
+      <p class="value">{{ pokemon?.height }}</p>
+    </div>
+
+    <div class="info-box">
+      <p class="label">⚖️ Peso:</p>
+      <p class="value">{{ pokemon?.weight }}</p>
+    </div>
+
+    <div class="info-box">
+      <p class="label">💡 Habilidad:</p>
+      <p class="value">{{ pokemon?.ability | titlecase }}</p>
+    </div>
+  </div>
+
+  <div class="badges">
+    <p><strong>Tipo:</strong></p>
+    <div class="badge-group">
+      <span
+        *ngFor="let type of pokemon?.types"
+        [ngClass]="'type-badge ' + (type | lowercase)"
+      >
+        {{ type | titlecase }}
+      </span>
+    </div>
+  </div>
+
+  <button mat-raised-button color="primary" routerLink="/pokemons">
+    Volver a la lista
+  </button>
+</mat-card>
