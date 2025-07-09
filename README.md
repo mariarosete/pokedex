@@ -32,12 +32,29 @@ Angular · NgRx · RxJS · Angular Material · TypeScript · SCSS · HTML
 
 ## 💻 Cómo ejecutar el proyecto
 
+### ✅ Requisitos previos
+
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+
+- **Node.js** (versión 18 o superior): [Descargar Node.js](https://nodejs.org/)
+- **Angular CLI**: puedes instalarlo globalmente con el siguiente comando:
+
+```bash
+npm install -g @angular/cli
+
+   ```
+
 1. Clona este repositorio:
 
  ```bash
    git clone https://github.com/mariarosete/pokedex.git
    ```
+2. Inicia la aplicación:
 
+ ```bash
+   
+   ```
+3. Abre tu navegador y ve a: http://localhost:4200
 
 ---
 ## 📸 Capturas de pantalla
@@ -58,8 +75,8 @@ Angular · NgRx · RxJS · Angular Material · TypeScript · SCSS · HTML
 
 ## 🔮 Próximas mejoras
 
-- Agregar paginación.
-- Funcionalidad de favoritos para guardar Pokémon preferidos.
+- Paginación en el listado.
+- Animaciones en las transiciones de vistas.
 ---
 
 ## 📩 Contacto
