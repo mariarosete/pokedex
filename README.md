@@ -53,6 +53,7 @@ npm install -g @angular/cli
 2. Inicia la aplicación:
 
  ```bash
+   set NODE_OPTIONS=--openssl-legacy-provider && npm start
    
    ```
 3. Abre tu navegador y ve a: http://localhost:4200
