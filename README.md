@@ -72,8 +72,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 ```bash
 npm install -g @angular/cli
-
    ```
+
 🚀 Instrucciones para ejecutar el proyecto
 
 1. Clona este repositorio:
@@ -85,17 +85,23 @@ npm install -g @angular/cli
 2. Accede a la carpeta del proyecto:
 
  ```bash
-   cd pokedex
+   cd pokedex/pokedex
   ```
 
-3. Inicia la aplicación:
+3. Instala las dependencias (usando compatibilidad con dependencias heredadas):
+
+ ```bash
+  npm install --legacy-peer-deps
+  ```
+
+4. Inicia la aplicación:
 
  ```bash
   set NODE_OPTIONS=--openssl-legacy-provider && npm start
   ```
 > Este comando ejecuta el servidor de desarrollo con compatibilidad para `OpenSSL`, útil en algunos entornos Windows con Node.js 18+.
   
-4. Abre tu navegador y ve a: http://localhost:4200
+5. Abre tu navegador y accede a: http://localhost:4200
 
 ---
 ## 📸 Capturas de pantalla
