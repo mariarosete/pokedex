@@ -1,6 +1,6 @@
 # 🎮 Pokedex – Aplicación web Angular
 
-![Banner Pokedex](https://github.com/mariarosete/pokedex/blob/main/Banner_Pokedex.png?raw=true)
+![Banner Pokedex](https://github.com/mariarosete/pokedex/blob/main/Banner.png?raw=true)
 
 Aplicación desarrollada durante una formación especializada en Angular, enfocada en el consumo de APIs y la gestión de estado con NgRx. Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
 
