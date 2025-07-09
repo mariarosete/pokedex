@@ -2,7 +2,8 @@
 
 ![Banner Pokedex](https://github.com/mariarosete/pokedex/blob/main/Banner_Pokedex.png?raw=true)
 
-Aplicación desarrollada durante una formación especializada en Angular, enfocada en el consumo de APIs y la gestión de estado con NgRx. Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
+**Pokedex App** es una aplicación web desarrollada en Angular como parte de una formación especializada, enfocada en el consumo de APIs y la gestión global de estado con NgRx. Permite a los usuarios explorar información de Pokémon a través de una interfaz moderna, responsiva y eficiente, utilizando Angular Material. Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
+
 
 ---
 
