@@ -44,19 +44,28 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 npm install -g @angular/cli
 
    ```
+🚀 Instrucciones para ejecutar el proyecto
 
 1. Clona este repositorio:
 
  ```bash
    git clone https://github.com/mariarosete/pokedex.git
    ```
-2. Inicia la aplicación:
+
+2. Accede a la carpeta del proyecto:
 
  ```bash
-   set NODE_OPTIONS=--openssl-legacy-provider && npm start
+   cd pokedex
   ```
+
+3. Inicia la aplicación:
+
+ ```bash
+  set NODE_OPTIONS=--openssl-legacy-provider && npm start
+  ```
+> Este comando ejecuta el servidor de desarrollo con compatibilidad para `OpenSSL`, útil en algunos entornos Windows con Node.js 18+.
   
-3. Abre tu navegador y ve a: http://localhost:4200
+4. Abre tu navegador y ve a: http://localhost:4200
 
 ---
 ## 📸 Capturas de pantalla
