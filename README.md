@@ -30,6 +30,36 @@ Angular · NgRx · RxJS · Angular Material · TypeScript · SCSS · HTML
 - Buenas prácticas de estado global con NgRx (selectors, actions, reducers).
 
 ---
+## 🧩 Descripción funcional del proyecto
+
+Esta aplicación cuenta con tres vistas principales que permiten explorar Pokémon de forma dinámica y organizada:
+
+### 🏠 Página de Inicio
+- Muestra un mensaje de bienvenida.
+- Incluye un enlace a la página de listado de Pokémon.
+
+### 📋 Página de Lista de Pokémon
+- Muestra un listado con:
+  - Número (Id).
+  - Nombre.
+  - Tipos.
+- Permite filtrar los Pokémon por tipo a través de un selector desplegable.
+- Cada Pokémon tiene un enlace para acceder a su vista de detalle.
+
+### 📄 Página de Detalle de Pokémon
+- Muestra información específica del Pokémon seleccionado:
+  - Imagen.
+  - Número (Id).
+  - Nombre.
+  - Tipos.
+- Incluye un enlace para volver al listado.
+
+### 🔁 Arquitectura técnica
+- Los datos se obtienen usando **HttpClient** en un servicio Angular.
+- La lógica de obtención y gestión del estado se realiza mediante **NgRx**.
+- Toda la interfaz está construida con **Angular Material** para garantizar un diseño moderno y responsive.
+  
+---
 
 ## 💻 Cómo ejecutar el proyecto
 
