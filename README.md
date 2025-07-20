@@ -21,7 +21,11 @@
 
 ## 🛠 Tecnologías utilizadas
 
-Angular · NgRx · RxJS · Angular Material · TypeScript · SCSS · HTML
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![NgRx](https://img.shields.io/badge/NgRx-8A2BE2?style=for-the-badge&logo=reactivex&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
+![Angular Material](https://img.shields.io/badge/Angular%20Material-757575?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ---
 
