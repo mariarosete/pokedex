@@ -77,63 +77,19 @@ Esta aplicación cuenta con tres vistas principales que permiten explorar Pokém
   
 ---
 
-## 💻 Cómo ejecutar el proyecto
+## 🌐 Aplicación en funcionamiento
 
-### ✅ Requisitos previos
+Puedes probar la Pokédex directamente en tu navegador:
 
-Antes de comenzar, asegúrate de tener instalado lo siguiente:
+👉 https://pokedex-maria.vercel.app/
 
-- **Node.js** (versión 18 o superior): [Descargar Node.js](https://nodejs.org/)
-- **Angular CLI**: puedes instalarlo globalmente con el siguiente comando:
-
-```bash
-npm install -g @angular/cli
-   ```
-
-🚀 Instrucciones para ejecutar el proyecto
-
-1. Clona este repositorio:
-
- ```bash
-   git clone https://github.com/mariarosete/pokedex.git
-   ```
-
-2. Accede a la carpeta del proyecto:
-
- ```bash
-   cd pokedex/pokedex
-  ```
-
-3. Instala las dependencias (usando compatibilidad con dependencias heredadas):
-
- ```bash
-  npm install --legacy-peer-deps
-  ```
-
-4. Inicia la aplicación:
-
- ```bash
-  set NODE_OPTIONS=--openssl-legacy-provider && npm start
-  ```
-> Este comando ejecuta el servidor de desarrollo con compatibilidad para `OpenSSL`, útil en algunos entornos Windows con Node.js 18+.
-  
-5. Abre tu navegador y accede a: http://localhost:4200
+📱💻 Aplicación responsive, adaptada a móvil y escritorio.
 
 ---
-## 📸 Capturas de pantalla
 
-| 🏠 Inicio | 🔍 Panel de filtrado |
-|-----------|----------------------|
-| ![Inicio](https://github.com/mariarosete/pokedex/blob/main/screenshots/1.Inicio.png?raw=true) | ![Filtrar](https://github.com/mariarosete/pokedex/blob/main/screenshots/2.Filtrar.png?raw=true) |
+## 🎥 Demo en vídeo
 
-| 🧪 Filtrado por tipo: Poison | 💧 Filtrado por tipo: Water |
-|-----------------------------|-----------------------------|
-| ![Poison](https://github.com/mariarosete/pokedex/blob/main/screenshots/3.FiltradoPoison.png?raw=true) | ![Water](https://github.com/mariarosete/pokedex/blob/main/screenshots/4.FiltradoWater.png?raw=true) |
-
-| 📋 Listado de Pokémon | 📄 Detalle de Pokémon |
-|-----------------------|-----------------------|
-| ![Listado](https://github.com/mariarosete/pokedex/blob/main/screenshots/5.Listado.png?raw=true) | ![Detalle](https://github.com/mariarosete/pokedex/blob/main/screenshots/6.Detalles.png?raw=true) |
-
+[Ver demo en vídeo](https://mariarosete.vercel.app/pokedex.mp4)
 ---
 
 ## 🔮 Próximas mejoras
