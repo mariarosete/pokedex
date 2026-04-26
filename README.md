@@ -5,15 +5,30 @@
 **Pokedex App** es una aplicación web desarrollada en Angular como parte de una formación especializada, enfocada en el consumo de APIs y la gestión global de estado con NgRx. Permite a los usuarios explorar información de Pokémon a través de una interfaz moderna, responsiva y eficiente, utilizando Angular Material. Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
 
 ---
+## 🌐 Aplicación en funcionamiento
+
+Puedes probar la Pokédex directamente en tu navegador:
+
+👉 https://pokedex-maria.vercel.app/
+
+📱💻 Aplicación responsive, adaptada a móvil y escritorio.
+
+---
+
+## 🎥 Demo en vídeo
+
+[Ver demo en vídeo](https://mariarosete.vercel.app/pokedex.mp4)
+---
+
 ## 📑 Tabla de contenidos
 
 - [🎮 Pokedex – Aplicación web Angular](#-pokedex--aplicación-web-angular)
+- [🌐 Aplicación en funcionamiento](#-aplicación-en-funcionamiento)
+- [🎥 Demo en vídeo](#-demo-en-vídeo)
 - [🛠 Tecnologías utilizadas](#-tecnologías-utilizadas)
 - [🚀 Funcionalidades destacadas](#-funcionalidades-destacadas)
 - [✨ Aspectos destacados](#-aspectos-destacados)
 - [🧩 Descripción funcional del proyecto](#-descripción-funcional-del-proyecto)
-- [💻 Cómo ejecutar el proyecto](#-cómo-ejecutar-el-proyecto)
-- [📸 Capturas de pantalla](#-capturas-de-pantalla)
 - [🔮 Próximas mejoras](#-próximas-mejoras)
 - [📩 Contacto](#-contacto)
   
@@ -75,21 +90,6 @@ Esta aplicación cuenta con tres vistas principales que permiten explorar Pokém
 - La lógica de obtención y gestión del estado se realiza mediante **NgRx**.
 - Toda la interfaz está construida con **Angular Material** para garantizar un diseño moderno y responsive.
   
----
-
-## 🌐 Aplicación en funcionamiento
-
-Puedes probar la Pokédex directamente en tu navegador:
-
-👉 https://pokedex-maria.vercel.app/
-
-📱💻 Aplicación responsive, adaptada a móvil y escritorio.
-
----
-
-## 🎥 Demo en vídeo
-
-[Ver demo en vídeo](https://mariarosete.vercel.app/pokedex.mp4)
 ---
 
 ## 🔮 Próximas mejoras
