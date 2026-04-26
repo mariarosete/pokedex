@@ -19,8 +19,8 @@ Puedes probar la Pokédex directamente en tu navegador:
 ## 🎥 Demo en vídeo
 
 Puedes ver el funcionamiento de la aplicación aquí:
+👉 https://mariarosete.vercel.app/Pokedex.mp4
 
-👉 https://mariarosete.vercel.app/pokedex.mp4
 ---
 ## 📑 Tabla de contenidos
 
