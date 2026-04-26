@@ -2,7 +2,8 @@
 
 ![Banner Pokedex](https://github.com/mariarosete/pokedex/blob/main/Banner_Pokedex.png?raw=true)
 
-**Pokedex App** es una aplicación web desarrollada en Angular como parte de una formación especializada, enfocada en el consumo de APIs y la gestión global de estado con NgRx. Permite a los usuarios explorar información de Pokémon a través de una interfaz moderna, responsiva y eficiente, utilizando Angular Material. Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
+Aplicación frontend en Angular orientada al consumo de APIs REST, con gestión de estado mediante NgRx y arquitectura reactiva con RxJS. Consume datos en tiempo real desde PokeAPI, simulando un flujo completo de integración con backend. 
+Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
 
 ---
 ## 🌐 Aplicación en funcionamiento
@@ -17,7 +18,9 @@ Puedes probar la Pokédex directamente en tu navegador:
 
 ## 🎥 Demo en vídeo
 
-[Ver demo en vídeo](https://mariarosete.vercel.app/pokedex.mp4)
+Puedes ver el funcionamiento de la aplicación aquí:
+
+👉 https://mariarosete.vercel.app/pokedex.mp4
 ---
 ## 📑 Tabla de contenidos
 
