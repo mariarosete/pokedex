@@ -20,20 +20,6 @@ Puedes probar la Pokédex directamente en tu navegador:
 [Ver demo en vídeo](https://mariarosete.vercel.app/pokedex.mp4)
 ---
 
-## 📑 Tabla de contenidos
-
-- [🎮 Pokedex – Aplicación web Angular](#-pokedex--aplicación-web-angular)
-- [🌐 Aplicación en funcionamiento](#-aplicación-en-funcionamiento)
-- [🎥 Demo en vídeo](#-demo-en-vídeo)
-- [🛠 Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [🚀 Funcionalidades destacadas](#-funcionalidades-destacadas)
-- [✨ Aspectos destacados](#-aspectos-destacados)
-- [🧩 Descripción funcional del proyecto](#-descripción-funcional-del-proyecto)
-- [🔮 Próximas mejoras](#-próximas-mejoras)
-- [📩 Contacto](#-contacto)
-  
----
-
 ## 🛠 Tecnologías utilizadas
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
