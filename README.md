@@ -2,39 +2,19 @@
 
 ![Banner Pokedex](https://github.com/mariarosete/pokedex/blob/main/Banner_Pokedex.png?raw=true)
 
-Aplicación frontend en Angular orientada al consumo de APIs REST, con gestión de estado mediante NgRx y arquitectura reactiva con RxJS. Consume datos en tiempo real desde PokeAPI, simulando un flujo completo de integración con backend. 
+Aplicación frontend desarrollada en Angular para el consumo de APIs REST, con gestión de estado mediante NgRx y arquitectura reactiva con RxJS.  
 Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
 
 ---
-## 🌐 Aplicación en funcionamiento
 
-Puedes probar la Pokédex directamente en tu navegador:
+## 🌐 Demo
 
-👉 https://pokedex-maria.vercel.app/
+👉 https://pokedex-maria.vercel.app/  
+👉 https://mariarosete.vercel.app/Pokedex.mp4  
 
-📱💻 Aplicación responsive, adaptada a móvil y escritorio.
-
----
-
-## 🎥 Demo en vídeo
-
-Puedes ver el funcionamiento de la aplicación aquí:<br>
-👉 https://mariarosete.vercel.app/Pokedex.mp4
+📱💻 Aplicación responsive (móvil y escritorio)
 
 ---
-## 📑 Tabla de contenidos
-
-- [🎮 Pokedex – Aplicación web Angular](#-pokedex--aplicación-web-angular)
-- [🌐 Aplicación en funcionamiento](#-aplicación-en-funcionamiento)
-- [🎥 Demo en vídeo](#-demo-en-vídeo)
-- [🛠 Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [🚀 Funcionalidades destacadas](#-funcionalidades-destacadas)
-- [✨ Aspectos destacados](#-aspectos-destacados)
-- [🧩 Descripción funcional del proyecto](#-descripción-funcional-del-proyecto)
-- [🔮 Próximas mejoras](#-próximas-mejoras)
-- [📩 Contacto](#-contacto)
-
-  ---
 
 ## 🛠 Tecnologías utilizadas
 
@@ -48,56 +28,50 @@ Puedes ver el funcionamiento de la aplicación aquí:<br>
 
 ## 🚀 Funcionalidades destacadas
 
-- 🔍 **Búsqueda y filtrado de Pokémon** por tipo (agua, fuego, planta…).
-- 📄 **Vista de listado** e información detallada enriquecida por Pokémon.
-- ⚙️ **Interfaz responsive** con diseño moderno y estructura modular.
-- 🧠 **Gestión global de estado** mediante NgRx.
+- 🔍 Búsqueda y filtrado de Pokémon por tipo  
+- 📄 Listado y vista de detalle con información enriquecida  
+- ⚙️ Interfaz responsive y estructura modular  
+- 🧠 Gestión global de estado con NgRx  
 
 ---
 
 ## ✨ Aspectos destacados
 
-- Consumo eficiente de la API externa **PokeAPI**.
-- Uso de **Angular Material** para componentes reutilizables.
-- Estructura profesional basada en módulos (`features/pokemons`).
-- Buenas prácticas de estado global con NgRx (selectors, actions, reducers).
+- Consumo eficiente de la API externa **PokeAPI**  
+- Uso de **Angular Material** para UI reutilizable  
+- Arquitectura basada en módulos (`features/pokemons`)  
+- Buenas prácticas con NgRx (actions, reducers, selectors)  
 
 ---
-## 🧩 Descripción funcional del proyecto
 
-Esta aplicación cuenta con tres vistas principales que permiten explorar Pokémon de forma dinámica y organizada:
+## 🧩 Descripción del proyecto
 
-### 🏠 Página de Inicio
-- Muestra un mensaje de bienvenida.
-- Incluye un enlace a la página de listado de Pokémon.
+La aplicación se estructura en tres vistas principales:
 
-### 📋 Página de Lista de Pokémon
-- Muestra un listado con:
-  - Número (Id).
-  - Nombre.
-  - Tipos.
-- Permite filtrar los Pokémon por tipo a través de un selector desplegable.
-- Cada Pokémon tiene un enlace para acceder a su vista de detalle.
+### 🏠 Inicio
+- Página de bienvenida con acceso al listado de Pokémon  
 
-### 📄 Página de Detalle de Pokémon
-- Muestra información específica del Pokémon seleccionado:
-  - Imagen.
-  - Número (Id).
-  - Nombre.
-  - Tipos.
-- Incluye un enlace para volver al listado.
+### 📋 Listado
+- Muestra ID, nombre y tipos  
+- Permite filtrar por tipo  
+- Acceso a la vista de detalle  
+
+### 📄 Detalle
+- Información completa del Pokémon (imagen, nombre, tipos)  
+- Navegación de vuelta al listado  
 
 ### 🔁 Arquitectura técnica
-- Los datos se obtienen usando **HttpClient** en un servicio Angular.
-- La lógica de obtención y gestión del estado se realiza mediante **NgRx**.
-- Toda la interfaz está construida con **Angular Material** para garantizar un diseño moderno y responsive.
-  
+- Consumo de datos mediante **HttpClient**  
+- Gestión de estado con **NgRx**  
+- Interfaz construida con **Angular Material**  
+
 ---
 
 ## 🔮 Próximas mejoras
 
-- Paginación en el listado.
-- Animaciones en las transiciones de vistas.
+- Paginación en el listado  
+- Animaciones en transiciones  
+
 ---
 
 ## 📩 Contacto
@@ -112,9 +86,7 @@ Esta aplicación cuenta con tres vistas principales que permiten explorar Pokém
   <a href="https://github.com/mariarosete">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-   <a href="https://mariarosete.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://mariarosete.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
 </p>
-
-
----
