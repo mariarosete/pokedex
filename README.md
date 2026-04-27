@@ -9,12 +9,14 @@ Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pok
 
 ## 🌐 Aplicación en funcionamiento 
 
-Puedes probar la Pokédex directamente en tu navegador: 👉 https://pokedex-maria.vercel.app/ 
+Puedes probar la Pokédex directamente en tu navegador: <br> 
+
+👉 https://pokedex-maria.vercel.app/ 
 
 📱💻 Aplicación responsive, adaptada a móvil y escritorio. 
 
 ---
-## 🎥 Demo en vídeo Puedes ver el funcionamiento de la aplicación aquí:<br> 
+## 🎥 Demo en vídeo <br> 
 
 👉 https://mariarosete.vercel.app/Pokedex.mp4 
 
