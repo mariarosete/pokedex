@@ -2,17 +2,21 @@
 
 ![Banner Pokedex](https://github.com/mariarosete/pokedex/blob/main/Banner_Pokedex.png?raw=true)
 
-Aplicación frontend desarrollada en Angular para el consumo de APIs REST, con gestión de estado mediante NgRx y arquitectura reactiva con RxJS.  
+Aplicación frontend en Angular orientada al consumo de APIs REST, con gestión de estado mediante NgRx y arquitectura reactiva con RxJS. Consume datos en tiempo real desde PokeAPI, simulando un flujo completo de integración con backend. 
 Los datos se obtienen en tiempo real desde la API pública [PokeAPI](https://pokeapi.co/).
 
 ---
 
-## 🌐 Demo
+## 🌐 Aplicación en funcionamiento 
 
-👉 https://pokedex-maria.vercel.app/  
-👉 https://mariarosete.vercel.app/Pokedex.mp4  
+Puedes probar la Pokédex directamente en tu navegador: 👉 https://pokedex-maria.vercel.app/ 
 
-📱💻 Aplicación responsive (móvil y escritorio)
+📱💻 Aplicación responsive, adaptada a móvil y escritorio. 
+
+---
+## 🎥 Demo en vídeo Puedes ver el funcionamiento de la aplicación aquí:<br> 
+
+👉 https://mariarosete.vercel.app/Pokedex.mp4 
 
 ---
 
