@@ -34,10 +34,10 @@ Puedes probar la Pokédex directamente en tu navegador: <br>
 
 ## 🚀 Funcionalidades destacadas
 
-- 🔍 Búsqueda y filtrado de Pokémon por tipo  
-- 📄 Listado y vista de detalle con información enriquecida  
-- ⚙️ Interfaz responsive y estructura modular  
-- 🧠 Gestión global de estado con NgRx  
+-  Búsqueda y filtrado de Pokémon por tipo  
+-  Listado y vista de detalle con información enriquecida  
+- Interfaz responsive y estructura modular  
+- Gestión global de estado con NgRx  
 
 ---
 
