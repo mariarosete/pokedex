@@ -32,7 +32,7 @@ Puedes probar la Pokédex directamente en tu navegador: <br>
 
 ---
 
-## 🚀 Funcionalidades destacadas
+## Funcionalidades destacadas
 
 -  Búsqueda y filtrado de Pokémon por tipo  
 -  Listado y vista de detalle con información enriquecida  
@@ -41,7 +41,7 @@ Puedes probar la Pokédex directamente en tu navegador: <br>
 
 ---
 
-## ✨ Aspectos destacados
+## Aspectos destacados
 
 - Consumo eficiente de la API externa **PokeAPI**  
 - Uso de **Angular Material** para UI reutilizable  
@@ -50,7 +50,7 @@ Puedes probar la Pokédex directamente en tu navegador: <br>
 
 ---
 
-## 🧩 Descripción del proyecto
+## Descripción del proyecto
 
 La aplicación se estructura en tres vistas principales:
 
@@ -73,7 +73,7 @@ La aplicación se estructura en tres vistas principales:
 
 ---
 
-## 🔮 Próximas mejoras
+## Próximas mejoras
 
 - Paginación en el listado  
 - Animaciones en transiciones  
